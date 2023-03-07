@@ -1,4 +1,4 @@
-### Javascript vs Node.js :
+## Javascript vs Node.js :
 
 #### **_Javascript :_**
 
@@ -21,7 +21,7 @@
 - - _Can read/write file on server._
 - - _Can do Server side operation._
 
-### Node.js's Package/library management :
+## Node.js's Package/library management :
 
 - _Node package manager/ **npm**._
 - _Manage own Package/library._
