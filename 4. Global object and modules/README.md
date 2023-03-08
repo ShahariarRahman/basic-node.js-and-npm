@@ -1,11 +1,30 @@
-_In Browser : Javascript's global variable :_
+_**In Browser,** Javascript's global variable is **`window` :**_
 
 ```
-const ifGlobal1 = true
-let   ifGlobal2 = true
-var   ifGlobal3 = true
+const access1 = "can't override global variable" ;
+let   access2 = "can't override global variable" ;
+var   access3 = "can override global variable" ;
 
-window.ifGlobal1 // undefine
-window.ifGlobal2 // undefine
-window.ifGlobal3 // true
+window.access1 // undefine
+window.access2 // undefine
+window.access3 // can override global variable
+```
+
+#### Manage global variable in Node.js :
+
+- _Each **JavaScript** file in Node.js acts as an **encapsulated module**._
+- _**`module`** is **global object** in Node.js, use to share data by :_
+- - _export:_
+
+```
+module.exports = {
+  name,
+  add,
+};
+```
+
+- - _import:_
+
+```
+const { add } = require("./index");
 ```
