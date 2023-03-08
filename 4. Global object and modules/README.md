@@ -1,6 +1,11 @@
-_In Browser : Javascript's global variable access :_
+_In Browser : Javascript's global variable :_
 
 ```
-const addMe = "This will be added as a global variable"
-const accessGlobalVariable = windows.addMe
+const ifGlobal1 = true
+let   ifGlobal2 = true
+var   ifGlobal3 = true
+
+window.ifGlobal1 // undefine
+window.ifGlobal2 // undefine
+window.ifGlobal3 // true
 ```
