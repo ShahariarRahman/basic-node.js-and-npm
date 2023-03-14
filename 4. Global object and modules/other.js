@@ -1,2 +1,10 @@
-const { add } = require("./index");
-console.log(add(5, 6));
+const name = "person";
+
+const add = (num1, num2) => {
+  return num1 + num2;
+};
+
+module.exports = {
+  name,
+  add,
+};
