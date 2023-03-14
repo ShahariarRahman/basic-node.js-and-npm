@@ -8,8 +8,6 @@
 
 ![Alt text](node.js_core_module.png "Title")
 
-[Install Core module :](https://www.npmjs.com/package/node)
-
 ```
 npm i node
 ```
