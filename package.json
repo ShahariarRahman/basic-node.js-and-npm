@@ -1,8 +1,8 @@
 {
-  "name": "5.-types-of-modules",
+  "name": "node.js-and-package-managers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "3. Run Javascript and Node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
